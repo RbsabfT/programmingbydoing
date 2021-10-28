@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class EnterPin{
-    public static void main(Strings arg[]){
+    public static void main(String args[]){
         
 		Scanner keyboard = new Scanner(System.in);
 		int pin = 12345;
