@@ -9,7 +9,7 @@ class Address
 	int zip;
 }
 
-public class Weba{
+public class Webarray{
 	public static void main(String[] args) throws Exception
 	{
 		URL addys = new URL("https://programmingbydoing.com/a/examples/fake-addresses.txt");
