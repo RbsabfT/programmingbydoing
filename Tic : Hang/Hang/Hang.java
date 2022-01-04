@@ -1,10 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 
 
 public class Hang{
-
-    private static String[] words = {"cheerleading", "hairbrush", "overwhelm", "apartment", "caterpillar"};
-    private static String word = words[(int) (Math.random()*words.length)];
+    private static ArrayList<String> words = new ArrayList<String>(Arrays.asList("Fire","Water","Rain","Heat","Ice"));
+    private static String word = words.get((int)(Math.random()*words.size()));
+    // private static String[] words = {"cheerleading", "hairbrush", "overwhelm", "apartment", "caterpillar"};
+    // private static String word = words[(int) (Math.random()*words.length)];
     private static String asterisk = new String(new char[word.length()]).replace("\0","*");
     private static int count = 0;
 
